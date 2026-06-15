@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<head>
+    <title>Cafe OreganO - Find Us !!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Ribeye&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #BABF94;
+            font-family: "Ribeye", serif;
+            margin: 0;
+        }
+        
+        .nav-bar {
+            background-color: #7a865e;
+            margin: 15px 0px;
+            display: flex;
+        }
+        .material-symbols-outlined {
+            font-size: 35px;
+            margin-top: 10px;
+            color: #3a4424;
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+            cursor: pointer;
+        }
+        .nav-bar li {
+            list-style: none;
+            display: flex;
+        }    
+        a {
+            color: #3a4424;
+            text-decoration: none;
+            font-size: 25px;
+            margin-left: 40px;
+            display: block;
+            padding: 10px 40px; 
+            text-align: center;
+            cursor: pointer;
+            transition-duration: 0.2s;   
+        }
+        .nav-bar a:hover {
+            background-color: #3a4424;
+            color: #ebf3c9;
+            }
+        .nav-bar a:active {
+            background-color: #525d38;
+            color: #f2f6d8;
+        }
+        .last-el {
+            margin-left: auto;
+            margin-right: 10px;
+        }
+        .box {
+            background-color: #977c68;
+            width: 100%;
+            height: 165px;
+            background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/5f/c7/4d/greenhouse-restaurant.jpg?w=900&h=500&s=1");
+            background-size: cover;
+            background-position: 0;
+            border-color: #3a4424;
+            border-width: 5px;
+            border-style: solid;
+            border-left: none;
+            border-right: none;
+        }
+        .header {
+            font-family: "Limelight", sans-serif;
+            font-size: 9em;
+            color: #F3E4C9;
+            margin-top: -85px;
+            margin-left: 20px;
+        }
+        .desc {
+            margin-left: auto;
+            margin-right: 15px;
+            margin-top: -80px;
+            text-align: right;
+            width: 1420px;
+            font-size: 20px;
+            color: #535546;
+        }
+        .mini-head {
+            font-family: "Ribeye", serif;
+            font-size: 50px;
+            margin-left: 35px;
+            margin-top: 45px;
+            margin-bottom: 0;
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-decoration-thickness: 4px;
+            text-decoration-color:#697846 ;
+            color: #323921;
+        }
+        .loc-desc {
+            margin-left: auto;
+            margin-right: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            padding: 0;
+            text-align: right;
+            width: 1420px;
+            font-size: 23px;
+            color: #535546;
+        }
+        hr {
+            border-color: #b89983;
+            background-color: #776150;
+            height: 3px;
+        }
+        .carasoul {
+            overflow-x: scroll;
+            display: flex;
+        }
+        .carasoul::-webkit-scrollbar {
+            display: none;
+        }
+        .picz {
+            display: flex;
+            column-gap: 0.5em;
+            animation: spin 20s infinite linear;
+            padding-right: .5em;
+            align-items: center;
+        }
+        .pic {
+            width: 350px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        #pic2 {
+            height: 400px;
+        }
+        @keyframes spin {
+            from {translate: 0;}
+            to {translate: -100%;}
+        }
+        footer {
+            height: 140px;
+            background-color: #776150;
+            color: #ebf3c9;
+        }
+        .footz-1st {
+            display: flex;
+        }
+        .foot {
+            background-color: #776150;
+            color: #F3E4C9;
+            padding: 20px 5px;
+            font-size: 15px;
+        }
+        .foot:hover {
+            text-decoration: underline;
+            text-decoration-thickness:2px ;
+        }
+        #last-foot {
+            background-color: #776150;
+            color: #F3E4C9;
+            font-size: 18px;
+            margin-left: auto;
+            margin-right: 25px;  
+        }
+        .footz-2nd {
+            display: flex;
+            justify-content: center;
+            column-gap: 2em;
+            border-style: solid;
+            border-top-color: #58483c;
+            border-right: none;
+            border-left: none;
+            border-bottom: none;
+            
+        }
+        .foot2 {
+            background-color: #776150;
+            color: #F3E4C9;
+            padding: 25px 0;
+            margin: 0;
+            font-size: 17px;  
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <ul class="nav-bar">
+                <span class="material-symbols-outlined">
+                menu
+                </span>
+                <li><a href="..\index.html" id="current-nav">Home</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="find-us.html">Find Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <span class="last-el"><li><a href="">Cart</a></li></span>
+            </ul>
+        </div>
+    </nav>    
+    <div class="box">
+    </div>
+    <h1 class="header">Cafe OreganO</h1>
+    <p class="desc">
+        Cafe Oregano is a cozy, neighborhood coffee spot that blends a relaxed café vibe with a fresh, herb‑inspired twist. 
+        Alongside classic espresso drinks, they serve a handful of light bites—like herb‑seasoned paninis and Mediterranean salads—often 
+        garnished with a sprinkle of oregano or other aromatic herbs. The low‑key décor, with warm wood tones and simple greenery, makes it a 
+        comfortable place for a quick work session or a casual catch‑up.
+    </p>
+
+    <div>
+        <div>
+            <p class="mini-head">LOCATION</p>
+            <p class="loc-desc">
+                A friendly coffee nook located in city‑centre malls across Sharjah and Dubai, offering 
+                espresso, herb‑infused snacks, and delivery through Talabat, Zomato, Careem NOW, Noon Food and Deliveroo.
+            </p>
+        </div>
+        
+        <hr>
+        <div class="carasoul">
+            <div class="picz">
+                <img class="pic" src="https://amaken.ae/wp-content/uploads/2025/06/Sharjah-City-Center.webp">
+                <img class="pic" id="pic2" src="https://www.sharjahshoppingguide.com/wp-content/uploads/cache/images/sharjah-city-center-thumb2/sharjah-city-center-thumb2-2119865730.jpg">
+                <img class="pic" src="https://media.assettype.com/gulfnews/import/2021/03/09/City-Centre-Al-Zahia_17816b14f92_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true">
+                <img class="pic" id="pic2" src="https://media.cntravellerme.com/photos/677fc19109d0a2f7f5b3f0ff/16:9/w_1280,c_limit/OK_Image%20-42.jpg">
+                <img class="pic" src="https://laduree.ae/wp-content/uploads/2025/07/City-Centre-Al-Zahia-Store-Image-5.webp">
+            </div>
+            <div aria-hidden="true" class="picz">
+                <img class="pic" id="pic2" src="https://amaken.ae/wp-content/uploads/2025/06/Sharjah-City-Center.webp">
+                <img class="pic" src="https://www.sharjahshoppingguide.com/wp-content/uploads/cache/images/sharjah-city-center-thumb2/sharjah-city-center-thumb2-2119865730.jpg">
+                <img class="pic" id="pic2" src="https://media.assettype.com/gulfnews/import/2021/03/09/City-Centre-Al-Zahia_17816b14f92_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true">
+                <img class="pic" src="https://media.cntravellerme.com/photos/677fc19109d0a2f7f5b3f0ff/16:9/w_1280,c_limit/OK_Image%20-42.jpg">
+                <img class="pic" id="pic2" src="https://laduree.ae/wp-content/uploads/2025/07/City-Centre-Al-Zahia-Store-Image-5.webp">
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <br><br><br><br>
+
+    <div>
+        <footer>
+            <div class="footz-1st">
+                <a class="foot" href="https://automattic.com/cookies/" target="_blank">Cookies Policy</a>
+                <a class="foot" href="https://www.adjd.gov.ae/en/pages/legalterms.aspx" target="_blank">Legal Terms</a>
+                <a class="foot" href="https://www.termsfeed.com/blog/sample-return-policy-ecommerce-stores/" target="_blank">Refund Policy</a>
+                <a class="foot" href="https://policies.google.com/terms?hl=en-US" target="_blank">Terms of Service</a>
+                <p id="last-foot" href=""><span style="font-family: 'Times New Roman', Times, serif;">Copyright &#169; 2026 Cafe <span></span><span style="color: #BABF94;"> Oregano</span></p>
+            </div>
+            <div class="footz-2nd">
+                <p class="foot2"><span style="font-size: 20px;">Gmail : </span><span style="color: #BABF94; text-decoration-line: underline;">CafeOreganO@gmail.com</span></p>
+                <p class="foot2"><span style="font-size: 20px;">Phone : </span><span style="color: #BABF94; text-decoration-line: underline;">+971-501234567</span></p>
+            </div>       
+
+            
+        </footer>
+    </div>
+
+    
+    
+    
+
+
+</body>
